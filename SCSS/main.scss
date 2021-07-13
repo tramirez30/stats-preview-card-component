@@ -38,7 +38,10 @@ span {
 
 // <!-- Card Container -->
 
-
+.stat {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .mobile-card-image {
     display: none;
