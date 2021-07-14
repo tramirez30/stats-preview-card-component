@@ -25,15 +25,15 @@ html {
 }
 
 body {
-    background-color:$color-background;
-    color: $color-primary;
+    background-color:$main-background;
+    color: $main-heading;
     font-family: 'Inter', 'Lexend Deca', sans-serif;
   
     
 }
 
 span {
-    color: $color-main;
+    color: $accent;
 }
 
 // <!-- Card Container -->
