@@ -1,5 +1,5 @@
 // Import
-@import 'media-quieries';
+@import 'SCSS/media-quieries';
 
 
 // Primary Colors
@@ -13,11 +13,11 @@ $main-heading:hsl(0, 0%, 100%);
 $color-main7:hsla(0, 0%, 100%, 0.75);
 $color-main6: hsla(0, 0%, 100%, 0.6);
 
-$font-size:15px;
+$font-size: 15px;
 
-html {
-    font: 62.5%;
-}
+// html {
+//     font: 62.5%;
+// }
 
 * {
     margin: 0;
@@ -29,8 +29,9 @@ body {
     background-color:$main-background;
     color: $main-heading;
     font-family: 'Inter', 'Lexend Deca', sans-serif;
-  
-    
+    @include mobile {    
+        color: red;
+     }    
 }
 
 span {
@@ -44,6 +45,7 @@ span {
 }
 
 .mobile-card-image {
+  
     display: none;
 }
 
