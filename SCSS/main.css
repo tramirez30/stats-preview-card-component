@@ -1,7 +1,3 @@
-html {
-  font: 62.5%;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +11,14 @@ body {
   font-family: 'Inter', 'Lexend Deca', sans-serif;
 }
 
+@media screen and (min-width: 375px) {
+  body {
+    color: blue;
+  }
+}
+
 span {
-  color: #aa5cdb;
+  color: blue;
 }
 
 .stat-block {
