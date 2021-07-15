@@ -30,7 +30,7 @@ body {
     color: $main-heading;
     font-family: 'Inter', 'Lexend Deca', sans-serif;
     @include mobile {    
-        color: red;
+        color: blue;
      }    
 }
 
