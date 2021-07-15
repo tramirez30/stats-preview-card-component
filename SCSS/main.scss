@@ -29,9 +29,6 @@ body {
     background-color:$main-background;
     color: $main-heading;
     font-family: 'Inter', 'Lexend Deca', sans-serif;
-    @include mobile {    
-        color: blue;
-     }    
 }
 
 span {
