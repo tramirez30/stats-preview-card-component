@@ -16,9 +16,6 @@ body {
   border-radius: 20px;
   margin: 48px;
   padding: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 span {
@@ -29,6 +26,12 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mobile-card-image {

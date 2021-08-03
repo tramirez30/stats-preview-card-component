@@ -36,7 +36,7 @@ body {
     border-radius: 20px;
     margin: 48px;
     padding: 40px;
-    display: flex;
+    
 }
 
 span {
@@ -46,7 +46,9 @@ span {
 // <!-- Card Container -->
 .block {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .mobile-card-image {
