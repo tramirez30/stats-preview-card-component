@@ -11,11 +11,21 @@ body {
   font-family: 'Inter', 'Lexend Deca', sans-serif;
 }
 
+.card {
+  background-color: #1b1938;
+  border-radius: 20px;
+  margin: 48px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 span {
   color: #aa5cdb;
 }
 
-.stat-block {
+.block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

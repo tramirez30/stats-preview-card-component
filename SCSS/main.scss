@@ -31,14 +31,22 @@ body {
     font-family: 'Inter', 'Lexend Deca', sans-serif;
 }
 
+.card {
+    background-color: $card-background;
+    border-radius: 20px;
+    margin: 48px;
+    padding: 40px;
+    display: flex;
+}
+
 span {
     color: $accent;
 }
 
 // <!-- Card Container -->
-
-.stat-block {
+.block {
     display: flex;
+    
 }
 
 .mobile-card-image {
