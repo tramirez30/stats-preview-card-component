@@ -50,8 +50,9 @@ span {
     align-items: center;
 }
 
-.stat{
+.stat-block{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mobile-card-image {
