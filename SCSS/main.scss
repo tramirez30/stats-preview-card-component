@@ -44,11 +44,14 @@ span {
 }
 
 // <!-- Card Container -->
-.block {
+.block{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.stat{
+    display: flex;
 }
 
 .mobile-card-image {
