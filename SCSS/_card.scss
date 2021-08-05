@@ -3,8 +3,37 @@
     display: flex;
     align-items: stretch;
     justify-content: center;
-    
+    border-radius: 1rem;
 }
+
+.card-text-part {
+    border: 1px solid red; //temp
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6%;
+
+    h1 {
+        color: $main-heading;
+        font-size: 3.4rem;
+        margin-bottom: 2.8rem;
+        line-height: 4.2rem;
+        letter-spacing: 0.6px;
+    }
+
+    span{
+        color: $accent;
+    }
+
+    .text {
+        color: $main-heading;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        letter-spacing: 0.5px;
+    }
+}
+
+
 
 .mobile-card-image {
     display: none;
