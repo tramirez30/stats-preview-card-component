@@ -111,6 +111,10 @@ body {
 
 .stat-title {
   color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
 }
 
 .mobile-card-image {
