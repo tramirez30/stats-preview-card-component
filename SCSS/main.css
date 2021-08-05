@@ -16,7 +16,6 @@ body {
 }
 
 .container {
-  border: 1px solid white;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,7 +43,6 @@ body {
 }
 
 .card-text-part {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,10 +112,33 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
-  font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-top: 0.8rem;
+}
+
+.card-image {
+  background-color: #aa5cdb;
+  border-radius: 0 1rem 1rem 0;
+}
+
+img {
+  height: 100%;
+  mix-blend-mode: multiply;
+  position: relative;
 }
 
 .mobile-card-image {
   display: none;
+}
+
+.pink {
+  background-color: #aa5cdb;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.25;
+  border-radius: 0 1rem 1rem 0;
 }
 /*# sourceMappingURL=main.css.map */
