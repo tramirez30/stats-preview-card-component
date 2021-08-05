@@ -33,6 +33,29 @@
     }
 }
 
+.stat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.stat-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stat-num{
+    color: $main-heading;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.stat-title{
+    color: $stat-heading;
+
+}
 
 
 .mobile-card-image {
