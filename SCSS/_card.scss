@@ -1,11 +1,11 @@
 .card {
-    display: none;
     background-color: $card-background;
     display: flex;
     align-items: stretch;
+    justify-content: center;
     
 }
 
-// .mobile-card-image {
-//     display: none;
-// }
+.mobile-card-image {
+    display: none;
+}
