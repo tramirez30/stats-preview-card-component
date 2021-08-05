@@ -1,5 +1,6 @@
 // Import
 @import 'media-quieries';
+@import 'general';
 
 
 // Primary Colors
@@ -13,23 +14,8 @@ $main-heading:hsl(0, 0%, 100%);
 $color-main7:hsla(0, 0%, 100%, 0.75);
 $color-main6: hsla(0, 0%, 100%, 0.6);
 
-$font-size: 15px;
+$font-size: 1.5rem;
 
-// html {
-//     font: 62.5%;
-// }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
-}
-
-body {
-    background-color:$main-background;
-    color: $main-heading;
-    font-family: 'Inter', 'Lexend Deca', sans-serif;
-}
 
 .card {
     background-color: $card-background;
