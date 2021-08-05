@@ -9,7 +9,11 @@ html {
 }
 
 body {
-    background-color:$main-background;
+    background-color: $main-background;
     color: $main-heading;
     font-family: 'Inter', 'Lexend Deca', sans-serif;
+}
+
+.container {
+    border: 1px solid white; //temporary
 }

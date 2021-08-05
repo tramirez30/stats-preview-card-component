@@ -1,8 +1,3 @@
-// Import
-@import 'media-quieries';
-@import 'general';
-
-
 // Primary Colors
 $main-background:hsl(233, 47%, 7%);
 $card-background:hsl(244, 38%, 16%);
@@ -46,3 +41,6 @@ span {
 }
 
 
+// Import
+@import 'media-quieries';
+@import 'general';
