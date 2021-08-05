@@ -36,11 +36,9 @@ span {
     flex-wrap: wrap;
 }
 
-.mobile-card-image {
-    display: none;
-}
 
 
 // Import
 @import 'media-quieries';
 @import 'general';
+@import 'card';

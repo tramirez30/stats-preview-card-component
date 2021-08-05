@@ -29,10 +29,6 @@ span {
       flex-wrap: wrap;
 }
 
-.mobile-card-image {
-  display: none;
-}
-
 html {
   font: 62.5%;
 }
@@ -62,5 +58,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.mobile-card-image {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
