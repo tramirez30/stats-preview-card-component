@@ -1,9 +1,11 @@
 .card {
+    display: none;
     background-color: $card-background;
     display: flex;
+    align-items: stretch;
     
 }
 
-.mobile-card-image {
-    display: none;
-}
+// .mobile-card-image {
+//     display: none;
+// }

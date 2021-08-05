@@ -54,13 +54,13 @@ body {
 }
 
 .card {
+  display: none;
   background-color: #1b1938;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.mobile-card-image {
-  display: none;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 /*# sourceMappingURL=main.css.map */
