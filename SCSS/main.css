@@ -40,6 +40,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 1rem;
+  max-width: 1140px;
 }
 
 .card-text-part {
@@ -54,6 +55,21 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 6%;
+}
+
+.card-text-part .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 85%;
 }
 
 .card-text-part h1 {
@@ -127,7 +143,7 @@ img {
   position: relative;
 }
 
-.mobile-card-image {
+.img-mobile {
   display: none;
 }
 
