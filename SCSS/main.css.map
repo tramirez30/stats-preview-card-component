@@ -5,7 +5,8 @@
         "main.scss",
         "_general.scss",
         "_card.scss",
-        "_media_375.scss"
+        "_media_375.scss",
+        "_media_1050.scss"
     ],
     "names": [],
     "file": "main.css"
