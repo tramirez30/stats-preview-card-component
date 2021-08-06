@@ -4,7 +4,8 @@
     "sources": [
         "main.scss",
         "_general.scss",
-        "_card.scss"
+        "_card.scss",
+        "_media_375.scss"
     ],
     "names": [],
     "file": "main.css"
