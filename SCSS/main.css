@@ -41,6 +41,7 @@ body {
           justify-content: center;
   border-radius: 1rem;
   max-width: 1140px;
+  margin: 53%;
 }
 
 .card-text-part {
@@ -159,6 +160,18 @@ img {
 }
 
 @media screen and (max-width: 375px) {
+  .container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .card {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -195,11 +208,33 @@ img {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    border-radius: 1rem 1rem 0 0;
+  }
+  img {
+    border-radius: 1rem 1rem 0 0;
+  }
+  .img-desktop {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+    width: 100%;
   }
   .card-text-part {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    padding: 10%;
+  }
+  .card-text-part h1 {
+    font-size: 2.6rem;
+    text-align: center;
+    line-height: 3.6rem;
+    margin-bottom: 1.2rem;
+  }
+  .card-text-part .text {
+    text-align: center;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
