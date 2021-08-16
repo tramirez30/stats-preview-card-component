@@ -146,17 +146,6 @@ img {
   display: none;
 }
 
-.pink {
-  background-color: #aa5cdb;
-  height: 50%;
-  width: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.25;
-  border-radius: 0 1rem 1rem 0;
-}
-
 @media screen and (max-width: 375px) {
   .container {
     height: 100%;
