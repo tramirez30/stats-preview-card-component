@@ -1,7 +1,8 @@
 .card {
     background-color: $card-background;
+    border: 1px solid orangered;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
     border-radius: 1rem;
     // max-width: 1140px;
@@ -44,13 +45,15 @@
 
 .stat{
     display: flex;
-    justify-content: space-between;
+    border: 1px solid yellow;
+    flex-flow: wrap;
     align-items: center;
     margin-top: 4rem;
 }
 
 .stat-block{
     display: flex;
+    border: 1px solid greenyellow;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -67,7 +70,7 @@
     letter-spacing: 0.1rem;
     font-size: 1.2rem;
     font-family: 'Lexend Deca', sans-serif;
-    margin-top: 0.8rem;
+    margin-top: 0.2rem;
 }
 
 .card-image{
@@ -87,13 +90,13 @@ img {
     display: none;
 }
 
-// .pink{
-//     background-color: $accent;
-//     height: 50%;
-//     width: 50%;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     opacity: 0.25;
-//     border-radius: 0 1rem 1rem 0;
-// }
+.pink{
+    background-color: $accent;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 1;
+    opacity: 0.25;
+    border-radius: 0 1rem 1rem 0;
+}
