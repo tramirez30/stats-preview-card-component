@@ -17,6 +17,8 @@ body {
 
 .container {
   height: 100vh;
+  margin: 50px 20px;
+  padding: 0 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,8 +43,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 1rem;
-  max-width: 1140px;
-  margin: 53%;
+  max-width: 100%;
 }
 
 .card-text-part {
@@ -97,9 +98,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   border: 1px solid yellow;
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -111,10 +113,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   border: 1px solid greenyellow;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -128,6 +126,11 @@ body {
 
 .stat-title {
   color: rgba(255, 255, 255, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
@@ -141,7 +144,7 @@ body {
 }
 
 img {
-  height: 100vh;
+  max-width: 100%;
   mix-blend-mode: multiply;
   position: relative;
 }
@@ -153,7 +156,7 @@ img {
 .pink {
   background-color: #aa5cdb;
   height: 100%;
-  width: 50%;
+  max-width: 100%;
   position: absolute;
   top: 0;
   left: 1;

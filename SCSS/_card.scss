@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
     border-radius: 1rem;
-    max-width: 1140px;
-    margin: 53%;
+    max-width: 100%;
+    // margin: 53%;
 }
 
 .card-text-part {
@@ -45,8 +45,9 @@
 
 .stat{
     display: flex;
+    justify-content: space-evenly;
     border: 1px solid yellow;
-    flex-flow: wrap;
+    // flex-flow: wrap;
     align-items: center;
     margin-top: 4rem;
 }
@@ -54,7 +55,7 @@
 .stat-block{
     display: flex;
     border: 1px solid greenyellow;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: flex-start;
 }
 
@@ -66,6 +67,8 @@
 
 .stat-title{
     color: $stat-heading;
+    display: flex;
+    flex-flow: wrap;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-size: 1.2rem;
@@ -80,7 +83,8 @@
 }
 
 img {
-    height: 100vh;
+    // height: 100vh;
+    max-width: 100%;
     mix-blend-mode: multiply;
     position: relative;
 }
@@ -93,7 +97,7 @@ img {
 .pink{
     background-color: $accent;
     height: 100%;
-    width: 50%;
+    max-width: 100%;
     position: absolute;
     top: 0;
     left: 1;
