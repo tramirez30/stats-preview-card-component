@@ -16,7 +16,6 @@ body {
 }
 
 .container {
-  height: 100vh;
   margin: 50px 20px;
   padding: 0 0 20px;
   display: -webkit-box;
@@ -144,6 +143,7 @@ body {
 }
 
 img {
+  height: 100%;
   max-width: 100%;
   mix-blend-mode: multiply;
   position: relative;
@@ -155,7 +155,6 @@ img {
 
 .pink {
   background-color: #aa5cdb;
-  height: 100%;
   max-width: 100%;
   position: absolute;
   top: 0;
@@ -185,7 +184,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 88%;
+    max-width: 100%;
   }
   .stats {
     display: -webkit-box;
@@ -240,6 +239,9 @@ img {
   .card-text-part .text {
     text-align: center;
     width: 100%;
+  }
+  .pink {
+    display: none;
   }
 }
 

@@ -83,7 +83,7 @@
 }
 
 img {
-    // height: 100vh;
+    height: 100%;
     max-width: 100%;
     mix-blend-mode: multiply;
     position: relative;
@@ -96,7 +96,7 @@ img {
 
 .pink{
     background-color: $accent;
-    height: 100%;
+    // height: 100vh;
     max-width: 100%;
     position: absolute;
     top: 0;
