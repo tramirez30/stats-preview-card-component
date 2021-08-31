@@ -50,6 +50,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 1px solid #00ff0d;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -64,6 +65,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 1px solid #00eeff;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -71,6 +73,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 100%;
+  width: 85%;
 }
 
 .card-text-part h1 {
@@ -136,13 +140,14 @@ body {
 
 .card-image {
   background-color: #aa5cdb;
+  border: 1px solid white;
   padding: 0;
   margin: 0;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 1rem 1rem 0 0;
 }
 
 img {
-  /* height: 100%;
+  /*  height: 100%;
     max-width: 100%; */
   mix-blend-mode: multiply;
   position: relative;
