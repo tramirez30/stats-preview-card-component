@@ -14,15 +14,16 @@
     border: 1px solid rgb(0, 255, 13);
     flex-direction: column;
     justify-content: space-between;
-    padding: 6%;
+    padding: 1rem;
+
 
     .block {
         display: flex;
         border: 1px solid rgb(0, 238, 255);
         flex-direction: column;
         justify-content: space-between;
-        height: 100%;
-        width: 85%;
+        // height: 100%;
+        // width: 85%;
     }
 
     h1 {
@@ -80,16 +81,14 @@
 .card-image{
     background-color: $accent;
     border: 1px solid rgb(255, 255, 255);
-    padding: 0;
-    margin: 0;
     border-radius: 0 1rem 1rem 0;
 
 }
 
 img {
-    height: 50%;
-    max-width: 100%;
-    mix-blend-mode: multiply;
+    // height: 32%;
+    // max-width: 50%;
+    // mix-blend-mode: multiply;
     position: relative;
 }
 
@@ -98,13 +97,13 @@ img {
     display: none;
 }
 
-.pink{
-    background-color: $accent;
-    height: 100vh;
-    max-width: 100%;
-    position: absolute;
-    top: 0;
-    left: 1;
-    opacity: 0.25;
-    border-radius: 0 1rem 1rem 0;
-}
+// .pink{
+//     background-color: $accent;
+//     height: 100vh;
+//     max-width: 100%;
+//     position: absolute;
+//     top: 0;
+//     left: 1;
+//     opacity: 0.25;
+//     border-radius: 0 1rem 1rem 0;
+// }
