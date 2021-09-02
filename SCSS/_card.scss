@@ -61,6 +61,7 @@
 }
 
 .stat-num{
+    display: inline-block;
     color: $main-heading;
     font-weight: bold;
     font-size: 2.2rem;
@@ -97,13 +98,13 @@ img {
     display: none;
 }
 
-// .pink{
-//     background-color: $accent;
-//     height: 100vh;
-//     max-width: 100%;
-//     position: absolute;
-//     top: 0;
-//     left: 1;
-//     opacity: 0.25;
-//     border-radius: 0 1rem 1rem 0;
-// }
+.pink{
+    background-color: $accent;
+    height: 100vh;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 1;
+    opacity: 0.25;
+    border-radius: 0 1rem 1rem 0;
+}
