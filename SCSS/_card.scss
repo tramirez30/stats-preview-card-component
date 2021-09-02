@@ -1,12 +1,13 @@
 .card {
     background-color: $card-background;
-    border: 1px solid orangered;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 1rem;
+    overflow: hidden;
     max-width: 100%;
-    padding: 0;
+    margin: 2rem;
+    border: 1px solid orangered;
 }
 
 .card-text-part {
@@ -55,10 +56,11 @@
 
 .stat-block{
     display: flex;
-    position:relative;
+    flex-wrap: wrap;
     justify-content: space-between;
-    justify-content: flex-start;
+    // justify-content: flex-start;
     margin-top: 2rem;
+    flex-direction: column;
     border: 1px solid greenyellow;
 }
 
@@ -72,15 +74,12 @@
 
 .stat-title{
     color: $stat-heading;
-    position:absolute;
-    // display: inline-block;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-size: 1rem;
     font-weight: 700;
     font-family: 'Lexend Deca', sans-serif;
     border: 1px solid orange;
-    // margin-top: 0.2rem;
 }
 
 .card-image{
@@ -92,30 +91,28 @@
 
 .img-desktop{
     background-color: $accent;
-    position: relative;
-     mix-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    height: 100%;
+    object-fit: cover;
     border-radius: 0 1rem 1rem 0;
 }
 
-/* img {
-    // height: 32%;
-    // max-width: 50%;
-    // mix-blend-mode: multiply;
-    position: relative;
+img {
+   height:100%;
 }
- */
+
 
 .img-mobile{
     display: none;
 }
 
-.pink{
+.overlay{
     background-color: $accent;
     // height: 50%;
     max-width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    // top: 0;
+    // left: 0;
     opacity: 0.25;
     border-radius: 0 1rem 1rem 0;
 }
