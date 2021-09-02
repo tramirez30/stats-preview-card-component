@@ -1,7 +1,7 @@
 .card {
     background-color: $card-background;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     border-radius: 1rem;
     overflow: hidden;
@@ -93,13 +93,13 @@
     background-color: $accent;
     mix-blend-mode: multiply;
     height: 100%;
-    object-fit: cover;
+    // object-fit: cover;
     border-radius: 0 1rem 1rem 0;
 }
 
-img {
-   height:100%;
-}
+// img {
+//    height:100%;
+// }
 
 
 .img-mobile{
@@ -110,7 +110,6 @@ img {
     background-color: $accent;
     // height: 50%;
     max-width: 100%;
-    position: absolute;
     // top: 0;
     // left: 0;
     opacity: 0.25;

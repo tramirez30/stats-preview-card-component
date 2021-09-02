@@ -36,9 +36,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -148,13 +148,7 @@ body {
   background-color: #aa5cdb;
   mix-blend-mode: multiply;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   border-radius: 0 1rem 1rem 0;
-}
-
-img {
-  height: 100%;
 }
 
 .img-mobile {
@@ -164,7 +158,6 @@ img {
 .overlay {
   background-color: #aa5cdb;
   max-width: 100%;
-  position: absolute;
   opacity: 0.25;
   border-radius: 0 1rem 1rem 0;
 }
