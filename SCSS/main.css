@@ -39,10 +39,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 1rem;
+  max-width: 78%;
   max-width: 1140px;
+  margin: 5%;
 }
 
 .card-text-part {
+  height: auto;
+  padding: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +57,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 4%;
 }
 
 .card-text-part .block {
@@ -100,7 +103,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 4rem;
+  margin-top: 4.0rem;
 }
 
 .stat-block {
@@ -135,6 +138,8 @@ body {
 
 .card-image {
   background-color: #aa5cdb;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 0 1rem 1rem 0;
   position: relative;
 }
