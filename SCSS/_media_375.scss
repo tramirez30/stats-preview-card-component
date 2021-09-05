@@ -1,20 +1,84 @@
-@media screen and (max-width: 375px) {
+// @media screen and (max-width: 375px) {
+//     .container {
+//         height: 100%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//     }
+    
+    
+    
+//     .card {
+//         display: flex;
+//         flex-direction: column;
+//         max-width: 88%;
+//     }
+
+//     .stat {
+//         display: flex;
+//         flex-direction: column;
+//     }
+
+//     .stat-block {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         margin: 1.6rem;
+//     }
+
+//     .card-img-part {
+//         order: 1;
+//         border-radius: 1rem 1rem 0 0;
+//     }
+
+//     img{
+//         border-radius: 1rem 1rem 0 0;
+//     }
+
+//     .img-desktop{
+//         display: none;
+//     }
+
+//     .img-mobile{
+//         display: block;
+//         width: 100%;
+//     }
+
+//     .card-text-part{
+//         order: 2;
+
+//         h1{
+//             font-size: 5rem;
+//             text-align: center;
+//             line-height: 3.6rem;
+//             margin-bottom: 1rem;
+
+//         }
+
+//         .text{
+//             text-align: center;
+//             width: 100%;
+//         }
+//     }
+
+// }
+
+@media screen and (max-width: 375px){
     .container {
-        height: 100%;
+        //border: 1px solid white;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
-    
-    
+
     .card {
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width: 88%;
     }
 
-    .stats {
+    .stat {
         display: flex;
         flex-direction: column;
     }
@@ -26,13 +90,42 @@
         margin: 1.6rem;
     }
 
+    .card-text-part {
+        order: 2;
+        padding: 10%;
+
+        .block {
+            width: 100%;
+        }
+
+       h1 {
+           font-size: 2.6rem;
+           text-align: center;
+           line-height: 3.6rem;
+           margin-bottom: 1.2rem;
+       }
+
+       .text {
+           text-align: center;
+           width: 100%;
+       }
+    }
+
+    .stat {
+        margin-top: 2.8rem;
+    }
+
+    .stat-title {
+        font-size: 1.2rem;
+    }
+    
     .card-img-part {
+        border-radius: 1rem 1rem 0 0;
         order: 1;
-        border-radius: 1rem;
     }
 
     img {
-        border-radius: 1rem;
+        border-radius: 1rem 1rem 0 0;
     }
 
     .img-desktop {
@@ -44,24 +137,7 @@
         width: 100%;
     }
 
-    .pink{
+    .overlay {
         border-radius: 1rem 1rem 0 0;
-    }
-
-    .card-text-part {
-        order: 2;
-        padding: 10%;
-
-        h1 {
-            font-size: 2.6rem;
-            text-align: center;
-            line-height: 3.6rem;
-            margin-bottom: 1.2rem;
-        }
-
-        .text {
-            text-align: center;
-            width: 100%;
-        }
     }
 }
