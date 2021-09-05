@@ -4,15 +4,24 @@
     align-items: stretch;
     justify-content: center;
     border-radius: 1rem;
-    border: 1px solid orangered;
+    max-width: 1140px;
+    // border: 1px solid orangered;
 }
 
 .card-text-part {
     display: flex;
-    border: 1px solid rgb(0, 255, 13);
     flex-direction: column;
     justify-content: space-between;
-    padding: 6%;
+    padding: 3%;
+
+    .block{
+        display: flex;
+        // border: 1px solid rgb(0, 255, 13);
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 85%;
+    }
 
     h1 {
         color: $main-heading;
@@ -36,7 +45,7 @@
 
 .stat{
     display: flex;
-    border: 1px solid yellow;
+    // border: 1px solid yellow;
     align-items: center;
     justify-content: space-between;
     margin-top: 4rem;
@@ -46,7 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border: 1px solid greenyellow;
+    // border: 1px solid greenyellow;
 }
 
 .stat-num{
@@ -54,7 +63,7 @@
     font-weight: bold;
     font-size: 2.2rem;
     text-transform: lowercase;
-    border: 1px solid blue;
+    // border: 1px solid blue;
 }
 
 .stat-title{
@@ -65,12 +74,14 @@
     font-weight: 700;
     margin-top: 0.8rem;
     font-family: 'Lexend Deca', sans-serif;
-    border: 1px solid orange;
+    // border: 1px solid orange;
 }
 
 .card-image {
     background-color: $accent;
     border-radius: 0 1rem 1rem 0;
+    // overflow: hidden;
+    position: relative;
 }
 
 img {
@@ -85,10 +96,11 @@ img {
 
 .overlay{
     background-color: $accent;
-    // height: 50%;
-    max-width: 100%;
-    // top: 0;
-    // left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     opacity: 0.25;
     border-radius: 0 1rem 1rem 0;
 }
