@@ -11,13 +11,6 @@ html {
 
 body {
   background-color: #090b1a;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
@@ -29,6 +22,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card {
@@ -58,6 +54,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 6%;
 }
 
 .card-text-part h1 {
@@ -84,6 +81,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   border: 1px solid yellow;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -126,14 +126,11 @@ body {
 .card-image {
   background-color: #aa5cdb;
   border-radius: 0 1rem 1rem 0;
-  border: 1px solid white;
 }
 
-.img-desktop {
-  background-color: #aa5cdb;
-  mix-blend-mode: multiply;
+img {
   height: 100%;
-  border-radius: 0 1rem 1rem 0;
+  mix-blend-mode: multiply;
 }
 
 .img-mobile {

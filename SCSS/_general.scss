@@ -10,9 +10,6 @@ html {
 
 body {
     background-color: $main-background;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
@@ -20,4 +17,5 @@ body {
    height: 100vh;
    display: flex;
    align-items: center;
+   justify-content: center;
 }
