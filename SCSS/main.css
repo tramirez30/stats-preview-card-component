@@ -127,7 +127,7 @@ body {
 }
 
 .stat-title {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 117, 117, 0.75);
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 1rem;
@@ -166,7 +166,7 @@ img {
 
 @media screen and (max-width: 375px) {
   .container {
-    height: 100vh;
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -209,36 +209,11 @@ img {
             align-items: center;
     margin: 1.6rem;
   }
-  .card-text-part {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    padding: 10%;
-  }
-  .card-text-part .block {
-    width: 100%;
-  }
-  .card-text-part h1 {
-    font-size: 2.6rem;
-    text-align: center;
-    line-height: 3.6rem;
-    margin-bottom: 1.2rem;
-  }
-  .card-text-part .text {
-    text-align: center;
-    width: 100%;
-  }
-  .stat {
-    margin-top: 2.8rem;
-  }
-  .stat-title {
-    font-size: 1.2rem;
-  }
   .card-img-part {
-    border-radius: 1rem 1rem 0 0;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    border-radius: 1rem 1rem 0 0;
   }
   img {
     border-radius: 1rem 1rem 0 0;
@@ -250,8 +225,20 @@ img {
     display: block;
     width: 100%;
   }
-  .overlay {
-    border-radius: 1rem 1rem 0 0;
+  .card-text-part {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .card-text-part h1 {
+    font-size: 5rem;
+    text-align: center;
+    line-height: 3.6rem;
+    margin-bottom: 1rem;
+  }
+  .card-text-part .text {
+    text-align: center;
+    width: 100%;
   }
 }
 
