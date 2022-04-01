@@ -38,7 +38,7 @@
   }
 
   .img-mobile {
-    display: block;
+    display: inline-block;
     width: 100%;
   }
 
@@ -56,5 +56,15 @@
       text-align: center;
       width: 100%;
     }
+  }
+  .overlay {
+    background-color: #aa5cdb;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    border-radius: 0;
   }
 }

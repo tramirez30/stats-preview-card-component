@@ -222,7 +222,7 @@ img {
     display: none;
   }
   .img-mobile {
-    display: block;
+    display: inline-block;
     width: 100%;
   }
   .card-text-part {
@@ -240,6 +240,16 @@ img {
     text-align: center;
     width: 100%;
   }
+  .overlay {
+    background-color: #aa5cdb;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    border-radius: 0;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -254,6 +264,9 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .block {
+    display: none;
   }
   .card {
     display: -webkit-box;
@@ -289,6 +302,10 @@ img {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    border-radius: 1rem 1rem 0 0;
+  }
+  img {
+    border-radius: 1rem 1rem 0 0;
   }
   .img-desktop {
     display: none;
