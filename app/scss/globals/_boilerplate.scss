@@ -1,3 +1,5 @@
+@use "../util" as utility;
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -10,7 +12,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: utility.$fonts;
   background-color: hsla(0, 0%, 35%, 0.866);
   color: hsla(0, 0%, 100%, 0.943);
 }
